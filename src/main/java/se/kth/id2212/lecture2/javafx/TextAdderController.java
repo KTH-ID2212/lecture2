@@ -16,9 +16,9 @@ import javafx.scene.text.Text;
  * Contains the event handlers.
  */
 public class TextAdderController implements Initializable {
-    public static final String NO_OF_ADDED_LINES_PREFIX = "Number of added lines: ";
+    static final String NO_OF_ADDED_LINES_PREFIX = "Number of added lines: ";
     private static final int DEFAULT_MAX_LINE_COUNT = 3;
-    public static final String MAX_LINE_COUNT_PARAM_NAME = "maxLines";
+    static final String MAX_LINE_COUNT_PARAM_NAME = "maxLines";
     private int noOfAddedLines = 0;
     private int maxLineCount;
 
