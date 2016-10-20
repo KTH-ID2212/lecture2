@@ -1,4 +1,4 @@
-package se.kth.id2212.lecture2;
+package se.kth.id2212.lecture2.swing;
 
 import javax.swing.JFrame;
 
