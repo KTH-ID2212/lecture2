@@ -1,4 +1,4 @@
-package se.kth.id2212.lecture2.javafx;
+package se.kth.id2212.lecture2.javafx.fxml;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -20,7 +20,7 @@ public class TextAdder extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource(
-                "TextAdder.fxml"));
+                "TextAdderFxml.fxml"));
         loader.getNamespace().put("numberOfAddedLinesTextInitialLabel",
                                   TextAdderController.NO_OF_ADDED_LINES_PREFIX + "0");
 

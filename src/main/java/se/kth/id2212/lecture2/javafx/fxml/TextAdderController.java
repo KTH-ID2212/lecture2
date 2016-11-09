@@ -1,4 +1,4 @@
-package se.kth.id2212.lecture2.javafx;
+package se.kth.id2212.lecture2.javafx.fxml;
 
 import java.net.URL;
 import java.util.ResourceBundle;
